@@ -34,16 +34,6 @@ body{
     /* background: linear-gradient(20deg , rgb(0, 70, 70), rgba(1, 63, 63, 0.856), rgb(0, 70, 70)); */
 }
 
-.box1 > a{
-    /* position: relative; */
-    /* left: 5vw; */
-    /* position: relative; */
-    /* top: 0;
-    left: 1rem;
-    flex: 1; */
-    /* background-color: blanchedalmond; */
-}
-
 .navbar ul{
     /* position: absolute;
     top: 0;
@@ -110,6 +100,8 @@ body{
 
 .showcase > img{
     margin: 4px 0px;
+    height: 100vh;
+    /* width: 100%; */
 }
 
 .box3 > p{
@@ -208,10 +200,18 @@ body{
         justify-content: center;
     }
 
-    .box2 p{
+    .introText{
         order: 1;
         height: auto;
         padding-left: 6rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: 0.5s all ease-in-out;
+    }
+
+    .intro-appear{
+        opacity: 1;
+        transform: translateY(0px);
     }
 
     .box2 img{
@@ -230,7 +230,9 @@ body{
         justify-content: center;
     }
 
-    .showcase > img:nth-child(2){
+    .showcase > img{
+        /* height: 748px;
+        width: 500px; */
         height: 958px;
         width: 640px;
     }
