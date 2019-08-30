@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    padding: 0rem .5rem;
+    /* padding: 0rem .5rem; */
 }
 
 .box1{
@@ -32,6 +32,16 @@ body{
     /* align-items: center;
     justify-content: left; */
     /* background: linear-gradient(20deg , rgb(0, 70, 70), rgba(1, 63, 63, 0.856), rgb(0, 70, 70)); */
+}
+
+.box1 > a{
+    /* position: relative; */
+    /* left: 5vw; */
+    /* position: relative; */
+    /* top: 0;
+    left: 1rem;
+    flex: 1; */
+    /* background-color: blanchedalmond; */
 }
 
 .navbar ul{
@@ -95,12 +105,13 @@ body{
 
 .showcase{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0rem 1rem;
 }
 
 .showcase > img{
     margin: 4px 0px;
-    width: 90vw;
+    max-width: 90vw;
     /* width: 100%; */
 }
 
