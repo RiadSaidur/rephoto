@@ -16,46 +16,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-    /* padding: 0rem .5rem; */
-}
-
 .box1{
     display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: left; */
-    /* background: linear-gradient(20deg , rgb(0, 70, 70), rgba(1, 63, 63, 0.856), rgb(0, 70, 70)); */
-}
-
-.box1 > a{
-    /* position: relative; */
-    /* left: 5vw; */
-    /* position: relative; */
-    /* top: 0;
-    left: 1rem;
-    flex: 1; */
-    /* background-color: blanchedalmond; */
 }
 
 .navbar ul{
-    /* position: absolute;
-    top: 0;
-    right: 0; */
-    /* background-color: yellowgreen; */
-    /* justify-self: end; */
-
-    /* position: absolute; */
-    /* flex: 1;
-    top: 0;
-    right: 0; */
-    /* padding-top: .5rem; */
     padding-top: 1rem;
     word-spacing: .7rem;
 }
@@ -68,7 +36,6 @@ body{
 }
 
 .container> h2{
-    /* background-color: cyan; */
     font-size: 1.4rem;
     height: 20vh;
     display: flex;
@@ -81,14 +48,10 @@ body{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    /* width: 100%;
-    align-items: center;
-    justify-content: space-around; */
 }
 
 .box2 > p{
     order: 2;
-    /* background-color: cyan; */
     font-size: 1.5rem;
     height: 30vh;
     display: flex;
@@ -100,7 +63,6 @@ body{
 .box2 > img{
     order: 1;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
-    /* height: 500px; */
 }
 
 .showcase{
@@ -114,7 +76,6 @@ body{
 .showcase > img{
     padding: 4px 0px;
     max-width: 90vw;
-    /* width: 100%; */
 }
 
 .box3 > p{
@@ -124,7 +85,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* background-color: cyan; */
 }
 
 .box3 .btn{
@@ -132,7 +92,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: cyan; */
 }
 
 .box3 .btn button{
@@ -141,15 +100,13 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    /* height: 5vh; */
     font-size: 1.4rem;
     background-color: rgba(65, 235, 235, 0.404);
     cursor: pointer;
     border: none;
     color: rgba(0, 0, 0, 0.753);
     transition: background 250ms ease-in-out, transform 150ms ease;
-    /* background: none; */
-    /* background-color: cyan; */
+    border: none;
 }
 
 .btn button:active {
@@ -178,10 +135,6 @@ body{
         word-spacing: 0rem;
     }
 
-    /* .navbar ul li:not(.nohover){  
-        display:none; 
-    } */
-
     .container > h2{
         height: 400px;
         background-image: url("assets/adult-blonde-hair-facial-expression-681992.jpg");
@@ -198,7 +151,6 @@ body{
         font-size: 1.7rem;
         letter-spacing: .2rem;
         color: rgba(0, 0, 109, 0.876);
-        /* background-color: cyan; */
     }
 
     .box2{
@@ -230,23 +182,17 @@ body{
     .box2 img{
         order: 2;
         margin: auto;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
     }
 
     .showcase{
         display: flex;
-        /* grid-template-columns: 1fr 1fr; */
+        flex-direction: row;
+        flex-wrap: wrap;
         grid-gap: 1rem;
-        /* align-items: center; */
         justify-content: center;
     }
 
     .showcase > img{
-        /* height: 748px;
-        width: 500px; */
-        height: 958px;
-        width: 640px;
+        height: 100vh;
     }
 }
