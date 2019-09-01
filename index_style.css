@@ -27,7 +27,7 @@ body{
 }
 
 .navbar ul{
-    padding: 2rem 0 1.2rem 0;
+    padding: 2.5rem 0 1.2rem 0;
     word-spacing: .7rem;
 }
 
@@ -42,6 +42,7 @@ body{
 .container> h2{
     font-size: 1.4rem;
     height: 20vh;
+    padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +65,11 @@ body{
     justify-content: center;
 }
 
-.box2 > img{
+.imageSlice{
     order: 1;
+    display: flex;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
+    width: 80vh;
 }
 
 .showcase{
@@ -79,7 +82,7 @@ body{
 
 .showcase > img{
     padding: 4px 0px;
-    max-width: 90vw;
+    width: 90vw;
 }
 
 .box3 > p{
