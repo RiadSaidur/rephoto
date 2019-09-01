@@ -193,6 +193,8 @@ body{
     }
 
     .showcase > img{
+        max-height: 748px;
+        max-width: 500px;
         height: 100vh;
     }
 }
