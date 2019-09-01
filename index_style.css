@@ -70,12 +70,12 @@ body{
     order: 1;
     display: flex;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
-    height: 600px;
-    width: 400px;
+    /* height: 600px;
+    width: 400px; */
 }
 .imageSlice img{
-    height: 600px;
-    width: 200px;
+    height: 500px;
+    width: auto;
 }
 
 .showcase{
