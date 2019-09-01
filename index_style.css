@@ -70,7 +70,9 @@ body{
     order: 1;
     display: flex;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
-    height: 540px;
+}
+.imageSlice img{
+    width: 320px;
 }
 
 .showcase{
