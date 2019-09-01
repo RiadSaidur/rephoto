@@ -15,6 +15,7 @@ ul{
 
 body{
     background-image: linear-gradient(-57deg,#7303c0,#03001e,#7303c0,#ec38bc,#03001e7c,#fdeff9,#03001e7c,#ec38bc,#7403c0,#7303c0,#03001ed0);
+    background-color: lightslategrey;
     font-family: 'Montserrat', sans-serif;
     color: ivory;
 }
@@ -69,7 +70,7 @@ body{
     order: 1;
     display: flex;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
-    width: 80vh;
+    width: 80vw;
 }
 
 .showcase{
