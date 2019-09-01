@@ -72,7 +72,8 @@ body{
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
 }
 .imageSlice img{
-    width: 320px;
+    height: 640px;
+    width: 213px;
 }
 
 .showcase{
