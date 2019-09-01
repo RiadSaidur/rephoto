@@ -42,8 +42,8 @@ body{
 
 .container> h2{
     font-size: 1.4rem;
-    height: 20vh;
-    padding-bottom: 2rem;
+    height: 50vh;
+    padding-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ body{
 .box2 > p{
     order: 2;
     font-size: 1.5rem;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -70,10 +70,7 @@ body{
     order: 1;
     display: flex;
     box-shadow: 10px 10px 4px rgb(211, 211, 211);
-}
-
-.imageSlice img{
-    width: 80vh;
+    height: 540px;
 }
 
 .showcase{
@@ -85,13 +82,13 @@ body{
 }
 
 .showcase > img{
-    padding: 4px 0px;
+    padding: .5rem 0px;
     width: 90vw;
 }
 
 .box3 > p{
     font-size: 1.5rem;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +96,8 @@ body{
 }
 
 .box3 .btn{
-    height: 20vh;
+    height: 30vh;
+    padding-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,6 +198,7 @@ body{
         align-items: center;
         margin: auto;
         height: 540px;
+        box-shadow: none;
     }
 
     .imageSlice:hover .left {
@@ -224,14 +223,13 @@ body{
     }
 
     .showcase{
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        grid-gap: 1rem;
-        justify-content: center;
+        grid-gap: .5rem;
     }
 
     .showcase > img{
         height: 640px;
+        width: auto
     }
 }
