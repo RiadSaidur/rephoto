@@ -204,6 +204,11 @@ blockquote{
         text-align: center;
         background-color: rgba(211, 211, 211, 0.123);
         background-image: none;
+        font-size: 1.2rem;
+    }
+
+    .container > h2{
+        font-size: 1.5rem;
     }
 
     .box3, .box4{
@@ -220,9 +225,18 @@ blockquote{
     }
 
     .box3 p, .box4 p{
+        font-size: 1.2rem;
         margin: 2rem 0;
         padding: 1rem 2rem;
         background-color: rgba(211, 211, 211, 0.123);
+    }
+
+    .navbar ul{
+        word-spacing: .7rem;
+    }
+
+    .navbar ul li{
+        letter-spacing: 0rem;
     }
 
 }

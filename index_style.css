@@ -32,10 +32,11 @@ body{
 }
 
 .box1{
-    display: grid;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .navbar ul{
@@ -130,6 +131,7 @@ body{
 
 .social{
     /* position: fixed; */
+    padding-top: .3rem;
     position: sticky;
     display: flex;
     flex-direction: row;
