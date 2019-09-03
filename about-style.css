@@ -95,10 +95,8 @@ body{
 }
 
 blockquote{
-    /* position: absolute; */
     display: flex;
     align-items: flex-end;
-    /* justify-content: center; */
     height: 400px;
     font-size: 1.5rem;
     font-weight: 900;
@@ -107,11 +105,9 @@ blockquote{
     line-height: 3rem;
     padding: 0rem 2rem 0 50rem;
     margin: 2rem 0rem;
-    /* background-color: cyan; */
     background-image: url("./assets/elevator-fashion-female-1034374.jpg");
     background-size: cover;
     background-position: center;
-    /* color: rgba(0, 0, 109, 0.876); */
     color: inherit;
 }
 
@@ -170,4 +166,63 @@ blockquote{
 
 .box3 p, .box4 p{
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1000px){
+    .container{
+        position: relative;
+    }
+
+    .container div{
+        margin: 0;
+    }
+
+    .social{
+        /* position: fixed; */
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        align-content: center;
+        justify-items: center;
+        justify-content: space-around;
+        border: 2px solid black;
+        border-radius: 0px 0px 10px 10px;
+        background-color: rgba(255, 255, 255, 0.198);
+    }
+
+    .social img{
+        flex: 1;
+        width: 40px;
+    }
+
+    blockquote{
+        height: 400px;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(211, 211, 211, 0.123);
+        background-image: none;
+    }
+
+    .box3, .box4{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box3 img{
+        display: none;
+    }
+
+    .box4 img{
+        width: 80vw;
+    }
+
+    .box3 p, .box4 p{
+        margin: 2rem 0;
+        padding: 1rem 2rem;
+        background-color: rgba(211, 211, 211, 0.123);
+    }
+
 }
