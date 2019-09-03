@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    word-spacing: .1rem;
+}
+
+body{
+    background-image: linear-gradient(20deg,#0B0C10,#44318d, #0B0C10);
+    background-repeat: no-repeat;
+    background-color: lightslategrey;
+    font-family: 'Montserrat', sans-serif;
+    color: ivory;
+}
+
+.social{
+    position: fixed;
+    top:30%;
+    right: -2rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: .2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .3rem .3rem 0 .3rem;
+    background-color: rgba(255, 255, 255, 0.198);
+}
+
+.social img{
+    width: 40px;
+    /* background-color: cyan; */
+}
+
+.container > div{
+    margin: 0 2rem;
+}
+
+.box1{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: cyan; */
+}
+
+.navbar ul{
+    padding: 2.5rem 0 1.2rem 0;
+    word-spacing: 1rem;
+}
+
+.navbar ul li{
+    display: inline;
+    color: azure;
+    border-bottom: solid 1px ivory;
+    letter-spacing: .2rem;
+    padding-bottom: .2rem;
+    cursor: pointer;
+    word-spacing: 0rem;
+}
+
+.box2{
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    word-spacing: .2rem;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box2 a{
+    color: rgb(253, 106, 106);
+}
+
+blockquote{
+    /* position: absolute; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    height: 400px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: right;
+    line-height: 3rem;
+    padding: 0rem 2rem 0 50rem;
+    margin: 2rem 0rem;
+    /* background-color: cyan; */
+    background-image: url("./assets/elevator-fashion-female-1034374.jpg");
+    background-size: cover;
+    background-position: center;
+    /* color: rgba(0, 0, 109, 0.876); */
+    color: inherit;
+}
+
+.container > h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cyan; */
+}
+
+.box3{
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cyan; */
+}
+
+.box3 > p{
+    flex: 3;
+    text-align: center;
+    margin-right: 2rem;
+    /* background-color: cyan; */
+}
+
+.box3 > img{
+    flex: 2;
+    /* height: 50vh;
+    width: auto; */
+}
+
+.box4{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightblue; */
+}
+
+.box4 > p{
+    flex: 3;
+    margin-left: 2rem;
+    text-align: center;
+    /* background-color: cyan; */
+}
+
+.box4 > img{
+    flex: 2;
+    /* height: 50vh;
+    width: auto; */
+}
+
+.box3 p, .box4 p{
+    font-weight: 500;
+}
