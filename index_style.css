@@ -14,10 +14,17 @@ ul{
 }
 
 body{
-    background-image: linear-gradient(-57deg,#7303c0,#03001e,#7303c0,#ec38bc,#03001e7c,#fdeff9,#03001e7c,#ec38bc,#7403c0,#7303c0,#03001ed0);
-    background-color: lightslategrey;
+    /* background-image: linear-gradient(-57deg,#7303c0,#03001e,#7303c0,#ec38bc,#03001e7c,#fdeff9,#03001e7c,#ec38bc,#7403c0,#7303c0,#03001ed0); */
+    /* background-color: #0B0C10; */
     font-family: 'Montserrat', sans-serif;
     color: ivory;
+    /* color: #66FCF1; */
+    /* color: #45A29E; */
+    /* background-color: #EAE7DC; */
+    /* color: #E85A4F; */
+    /* color: #E98074; */
+    /* background-color: #44318d; */
+    background-image: linear-gradient(20deg,#0B0C10,#44318d, #0B0C10)
 }
 
 .box1{
@@ -40,7 +47,7 @@ body{
     padding-bottom: .2rem;
 }
 
-.container> h2{
+.container > h2{
     font-size: 1.4rem;
     height: 50vh;
     padding-bottom: 1rem;
@@ -74,8 +81,8 @@ body{
     width: 400px; */
 }
 .imageSlice img{
-    height: 500px;
-    width: auto;
+    height: 508px;
+    width: 170px;
 }
 
 .showcase{
@@ -93,14 +100,31 @@ body{
 
 .box3 > p{
     font-size: 1.5rem;
-    height: 40vh;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.box3 .btn{
+.contact{
+    height: 200px;
+    margin-top: 1rem;
+    /* margin-bottom: 0rem; */
+    font-size: 1.3rem;
+    line-height: 2rem;
+    word-spacing: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact a{
+    color: rgb(253, 106, 106);
+}
+
+/* .box3 .btn{
     height: 30vh;
     padding-bottom: 5rem;
     display: flex;
@@ -125,17 +149,39 @@ body{
 
 .btn button:active {
     transform: scale(0.99);
-}
+} */
 
 @media only screen and (min-width: 1000px){
     /* body{
         background-image: linear-gradient(-57deg,#03001e,#7303c0,#ec38bc,#fdeff9,#ec38bc,#7303c0,#03001e);
         background-image: linear-gradient(-57deg,#7303c0,#03001e,#7303c0,#ec38bc,#03001e7c,#fdeff9,#03001e7c,#ec38bc,#7403c0,#7303c0,#03001ed0);
     } */
+
+    .social{
+        position: fixed;
+        top:30%;
+        right: 0%;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        grid-gap: .2rem;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: .3rem .3rem 0 .3rem;
+        background-color: rgba(255, 255, 255, 0.198);
+    }
+
+    .social img{
+        width: 40px;
+        /* background-color: cyan; */
+    }
+
     .container{
         position: relative;
         padding: 0;
-        padding-bottom: 10rem;
+        /* padding-bottom: 10rem; */
     }
 
     .box1{
