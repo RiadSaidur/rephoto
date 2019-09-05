@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    word-spacing: .1rem;
+}
+
+body{
+    background-image: linear-gradient(20deg,#0B0C10,#44318d, #0B0C10);
+    background-repeat: no-repeat;
+    background-color: lightslategrey;
+    font-family: 'Montserrat', sans-serif;
+    color: ivory;
+}
+
+.container{
+    margin: 0 5rem;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.social{
+    position: fixed;
+    top:30%;
+    right: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: .2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .3rem .3rem 0 .3rem;
+    background-color: rgba(255, 255, 255, 0.198);
+}
+
+.social img{
+    width: 40px;
+}
+
+.box1{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: cyan; */
+}
+
+.navbar ul{
+    padding: 2.5rem 0 1.2rem 0;
+    word-spacing: 1rem;
+}
+
+.navbar ul li{
+    display: inline;
+    color: azure;
+    border-bottom: solid 1px ivory;
+    letter-spacing: .2rem;
+    padding-bottom: .2rem;
+    cursor: pointer;
+    word-spacing: 0rem;
+    font-size: 1rem;
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    height: 350px;
+}
+
+.info{
+    flex: 1;
+    margin-right: 2rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    /* display: block; */
+    /* background-color: cyan; */
+}
+
+.info li{
+    display: inline;
+}
+
+.info li p{
+    line-height: 2rem;
+}
+
+.info img{
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.form{
+    flex: 1;
+    margin-left: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right; */
+}
+
+.form h2{
+    margin-bottom: 2rem;
+    color: rgba(255, 0, 0, 0.89);
+    /* background-color: coral; */
+}
+
+.form input, button{
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 2rem;
+    margin-bottom: .5rem;
+    border-radius: 10px;
+}
+
+.form textarea{
+    width: 80%;
+    text-align: center;
+    margin-bottom: .5rem;
+    border-radius: 10px;
+}
+
+/* .contact{
+    height: 200px;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    word-spacing: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact a{
+    color: rgb(253, 106, 106);
+} */
+
+@media only screen and (max-width: 1000px){
+    p{
+        font-size: 1.2rem;
+    }
+
+    form{
+        width: 80vw;
+    }
+
+    .social{
+        /* position: fixed; */
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        align-content: center;
+        justify-items: center;
+        justify-content: space-around;
+        border: 2px solid black;
+        border-radius: 0px 0px 10px 10px;
+        background-color: rgba(255, 255, 255, 0.198);
+    }
+
+    .navbar ul{
+        word-spacing: .7rem;
+    }
+
+    .navbar ul li{
+        letter-spacing: 0rem;
+    }
+
+    .box2{
+        flex-direction: column;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .switch{
+        order: 2;
+        cursor: pointer;
+        padding: 1rem;
+    }
+}
